@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Sort;
 
 import java.util.Scanner;
 

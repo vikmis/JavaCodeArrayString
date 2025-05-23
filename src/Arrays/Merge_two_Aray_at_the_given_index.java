@@ -26,7 +26,7 @@ public class Merge_two_Aray_at_the_given_index {
 	int b[] = {1,9,10,4,7};
 	int ar[]=MergeTwoArray(a,b,2);
 	for(int i =0;i<ar.length;i++) {
-		System.out.println(ar[i]);
+		System.out.print(" "+ar[i]);
 	}
 	
 		

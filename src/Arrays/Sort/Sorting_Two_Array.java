@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Sort;
 
 public class Sorting_Two_Array {
 
