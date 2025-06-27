@@ -41,7 +41,7 @@ public static void main(String[] args) {
 		}
 		
 		System.out.println("*************************************************************");
-		System.out.println();	
+		System.out.println();	                     
 		
 		System.out.println("Sort By name using list.sort");
 		
