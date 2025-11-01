@@ -1,4 +1,4 @@
-package LeetCodePractice.Array;
+package LeetCodePractice.challengr75Problem;
 
 import java.util.ArrayList;
 import java.util.Arrays;

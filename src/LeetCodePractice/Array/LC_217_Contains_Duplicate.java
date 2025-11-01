@@ -1,5 +1,8 @@
 package LeetCodePractice.Array;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class LC_217_Contains_Duplicate {
 	
 	 public boolean containsDuplicate(int[] nums) {

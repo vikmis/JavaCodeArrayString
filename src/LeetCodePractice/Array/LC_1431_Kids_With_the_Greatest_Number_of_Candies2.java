@@ -4,20 +4,27 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class LC_1431_Kids_With_the_Greatest_Number_of_Candies {
+public class LC_1431_Kids_With_the_Greatest_Number_of_Candies2 {
 	
 	 public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
 
 	        List<Boolean> list =new ArrayList<>();
-	        int maxCandy =0;
-	        for(int candy : candies) {
-	        	if(candy>maxCandy) {
-	        		maxCandy= candy;
-	        	}
-	        }
 	        
-	        for(int candy : candies) {
-	        	list.add(candy+extraCandies>=maxCandy);
+	        int count=0;
+	        for(int i=0;i<candies.length;i++){
+
+	            for(int j=0;j<candies.length;j++){
+	                if(candies[i]+extraCandies>=candies[j] ){
+	                    count++;
+	                }                
+	            }
+	             if(count==candies.length){
+
+	                   list.add(true);
+	                }else{
+	                     list.add(false);
+	                }
+	             count=0;
 	        }
 	        return list;
 	    }
